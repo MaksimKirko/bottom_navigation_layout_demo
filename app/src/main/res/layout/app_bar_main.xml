@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.github.maksimkirko.appbar_behaviour_demo.MainActivity">
+    tools:context="com.github.maksimkirko.bottom_navigation_layout_demo.MainActivity">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/app_bar_main"
@@ -31,17 +31,17 @@
             <android.support.design.widget.TabItem
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="TAB 1" />
+                android:text="@string/app_bar_tab_1_title" />
 
             <android.support.design.widget.TabItem
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="TAB 2" />
+                android:text="@string/app_bar_tab_2_title" />
 
             <android.support.design.widget.TabItem
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="TAB 3" />
+                android:text="@string/app_bar_tab_3_title" />
 
         </android.support.design.widget.TabLayout>
 
