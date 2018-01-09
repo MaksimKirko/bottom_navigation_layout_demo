@@ -12,7 +12,7 @@ public class SendScreenFragment extends ScreenFragment {
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.fragment_search, container, false);
+        view = inflater.inflate(R.layout.fragment_default_screen, container, false);
 
         initTitleView("Send");
         return view;

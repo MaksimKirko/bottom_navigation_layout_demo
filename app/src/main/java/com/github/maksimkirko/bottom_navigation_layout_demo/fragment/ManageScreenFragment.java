@@ -12,7 +12,7 @@ public class ManageScreenFragment extends ScreenFragment {
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.fragment_search, container, false);
+        view = inflater.inflate(R.layout.fragment_default_screen, container, false);
 
         initTitleView("Manage");
         return view;
