@@ -51,6 +51,7 @@
         android:id="@+id/layout_activity_main_fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:paddingBottom="@dimen/bottom_navigation_height"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
     </FrameLayout>
@@ -58,7 +59,7 @@
     <com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx
         android:id="@+id/bottom_navigation_view_main"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/bottom_navigation_height"
         android:layout_gravity="bottom"
         android:background="@color/primaryColor"
         app:itemIconTint="@drawable/nav_item_color_state"
